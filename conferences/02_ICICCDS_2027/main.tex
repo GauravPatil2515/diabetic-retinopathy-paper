@@ -189,14 +189,8 @@ All models were implemented in PyTorch 2.2 and trained on NVIDIA RTX GPUs. Effic
 \section{Experiments and Results}
 
 \subsection{Three-Domain LODO Benchmark Performance}
-To evaluate out-of-distribution generalizability, we execute a three-fold Leave-One-Domain-Out (LODO) benchmark across APTOS 2019, Messidor-2, and IDRiD (Fig.~\ref{fig_lodo}). In each fold, models are trained on two source datasets and evaluated zero-shot on the held-out target dataset.
+To evaluate out-of-distribution generalizability, we execute a three-fold Leave-One-Domain-Out (LODO) benchmark across APTOS 2019, Messidor-2, and IDRiD (summarized in Table~\ref{tab:lodo}). In each fold, models are trained on two source datasets and evaluated zero-shot on the held-out target dataset.
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\columnwidth]{figures/Figure_6_LODO_New.pdf}
-\caption{Three-fold leave-one-domain-out (LODO) protocol: in each fold, the model trains exclusively on two source cohorts, and is evaluated zero-shot on the third, unexposed target cohort.}
-\label{fig_lodo}
-\end{figure}
 
 \begin{table}[htbp]
     \centering
