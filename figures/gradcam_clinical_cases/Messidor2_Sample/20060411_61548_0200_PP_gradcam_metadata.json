@@ -1,0 +1,14 @@
+{
+  "image": "project/data/processed/messidor2/20060411_61548_0200_PP.png",
+  "domain": "Messidor",
+  "prediction": "Mild",
+  "confidence": 0.5159015655517578,
+  "all_predictions": {
+    "No DR": 0.29077357053756714,
+    "Mild": 0.5159015655517578,
+    "Moderate": 0.16118992865085602,
+    "Severe": 0.022642696276307106,
+    "Proliferative DR": 0.009492295794188976
+  },
+  "interpretation": "Model predicts Mild with 51.6% confidence. Early-stage DR detected. Microaneurysms visible - recommended for monitoring. (Source: Messidor)"
+}

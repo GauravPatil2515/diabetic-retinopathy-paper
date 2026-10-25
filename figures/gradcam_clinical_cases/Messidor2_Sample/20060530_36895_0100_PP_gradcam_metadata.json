@@ -1,0 +1,14 @@
+{
+  "image": "project/data/processed/messidor2/20060530_36895_0100_PP.png",
+  "domain": "Messidor",
+  "prediction": "Severe",
+  "confidence": 0.3810393810272217,
+  "all_predictions": {
+    "No DR": 0.0966208428144455,
+    "Mild": 0.1560901701450348,
+    "Moderate": 0.2674807906150818,
+    "Severe": 0.3810393810272217,
+    "Proliferative DR": 0.09876883774995804
+  },
+  "interpretation": "Model predicts Severe with 38.1% confidence. Severe DR with extensive hemorrhages and exudates. Urgent intervention recommended. (Source: Messidor)"
+}

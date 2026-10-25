@@ -1,0 +1,14 @@
+{
+  "image": "project/data/processed/messidor2/20051202_55562_0400_PP.png",
+  "domain": "Messidor",
+  "prediction": "Moderate",
+  "confidence": 0.38061878085136414,
+  "all_predictions": {
+    "No DR": 0.17536033689975739,
+    "Mild": 0.2625797390937805,
+    "Moderate": 0.38061878085136414,
+    "Severe": 0.11246990412473679,
+    "Proliferative DR": 0.068971186876297
+  },
+  "interpretation": "Model predicts Moderate with 38.1% confidence. Progressive DR with multiple microaneurysms and exudates. Clinical intervention advised. (Source: Messidor)"
+}

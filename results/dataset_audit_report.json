@@ -1,0 +1,106 @@
+{
+  "datasets": [
+    {
+      "name": "APTOS",
+      "csv_path": "/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/aptos2019/train.csv",
+      "image_dir": "/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/aptos2019_resized/colored_images",
+      "total_rows": 3662,
+      "class_counts": {
+        "0": 1805,
+        "1": 370,
+        "2": 999,
+        "3": 193,
+        "4": 295
+      },
+      "class_percentages": {
+        "0": 49.29,
+        "1": 10.1,
+        "2": 27.28,
+        "3": 5.27,
+        "4": 8.06
+      },
+      "missing_files": [],
+      "corrupted_files": [],
+      "unlabeled_rows": 0,
+      "extra_images": 0,
+      "notes": []
+    },
+    {
+      "name": "Messidor-2",
+      "csv_path": "/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/messidor2/messidor_data.csv",
+      "image_dir": "/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/messidor2/messidor-2/images",
+      "total_rows": 1744,
+      "class_counts": {
+        "0": 1017,
+        "1": 270,
+        "2": 347,
+        "3": 75,
+        "4": 35
+      },
+      "class_percentages": {
+        "0": 58.31,
+        "1": 15.48,
+        "2": 19.9,
+        "3": 4.3,
+        "4": 2.01
+      },
+      "missing_files": [],
+      "corrupted_files": [],
+      "unlabeled_rows": 0,
+      "extra_images": 0,
+      "notes": [
+        "Messidor severe DR class is very rare."
+      ]
+    },
+    {
+      "name": "EyePACS lite",
+      "csv_path": "/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/eyepacs_lite/EyePACS/train.csv",
+      "image_dir": "/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/eyepacs_lite/EyePACS/train",
+      "total_rows": 4200,
+      "class_counts": {
+        "0": 2100,
+        "1": 2100
+      },
+      "class_percentages": {
+        "0": 50.0,
+        "1": 50.0
+      },
+      "missing_files": [],
+      "corrupted_files": [],
+      "unlabeled_rows": 0,
+      "extra_images": 0,
+      "notes": [
+        "EyePACS is binary in this lite split and should not be mixed directly into 5-class supervised training.",
+        "Binary labels confirmed; suitable for SSL or binary pretraining."
+      ]
+    }
+  ],
+  "folder_audit": {
+    "aptos_raw": {
+      "image_dir": "/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/aptos2019/train_images",
+      "total_images": 231,
+      "corrupted_images": 1,
+      "corrupted_examples": [
+        "/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/aptos2019/train_images/10f36b0239fb.png"
+      ]
+    },
+    "aptos_resized": {
+      "image_dir": "/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/aptos2019_resized/colored_images",
+      "total_images": 3662,
+      "corrupted_images": 0,
+      "corrupted_examples": []
+    },
+    "messidor": {
+      "image_dir": "/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/messidor2/messidor-2/images",
+      "total_images": 1748,
+      "corrupted_images": 0,
+      "corrupted_examples": []
+    },
+    "eyepacs_lite_train": {
+      "image_dir": "/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/eyepacs_lite/EyePACS/train",
+      "total_images": 4200,
+      "corrupted_images": 0,
+      "corrupted_examples": []
+    }
+  }
+}

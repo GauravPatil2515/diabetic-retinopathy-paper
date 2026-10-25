@@ -1,0 +1,14 @@
+{
+  "image": "project/data/processed/aptos2019/No_DR/2eba4279e503.png",
+  "domain": "APTOS",
+  "prediction": "No DR",
+  "confidence": 0.9126767516136169,
+  "all_predictions": {
+    "No DR": 0.9126767516136169,
+    "Mild": 0.05647130683064461,
+    "Moderate": 0.026840446516871452,
+    "Severe": 0.0024791324976831675,
+    "Proliferative DR": 0.0015324646374210715
+  },
+  "interpretation": "Model predicts No DR with 91.3% confidence. Retina appears healthy with no signs of diabetic retinopathy. (Source: APTOS)"
+}

@@ -1,0 +1,14 @@
+{
+  "image": "project/data/processed/messidor2/IM000371.png",
+  "domain": "Messidor",
+  "prediction": "No DR",
+  "confidence": 0.6025148630142212,
+  "all_predictions": {
+    "No DR": 0.6025148630142212,
+    "Mild": 0.32612985372543335,
+    "Moderate": 0.06223992630839348,
+    "Severe": 0.005638315808027983,
+    "Proliferative DR": 0.0034770925994962454
+  },
+  "interpretation": "Model predicts No DR with 60.3% confidence. Retina appears healthy with no signs of diabetic retinopathy. (Source: Messidor)"
+}

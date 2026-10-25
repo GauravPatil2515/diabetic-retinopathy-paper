@@ -1,0 +1,14 @@
+{
+  "image": "project/data/processed/aptos2019/Moderate/45ae04cfde5d.png",
+  "domain": "APTOS",
+  "prediction": "Moderate",
+  "confidence": 0.49739155173301697,
+  "all_predictions": {
+    "No DR": 0.019942525774240494,
+    "Mild": 0.25952640175819397,
+    "Moderate": 0.49739155173301697,
+    "Severe": 0.08182930946350098,
+    "Proliferative DR": 0.14131024479866028
+  },
+  "interpretation": "Model predicts Moderate with 49.7% confidence. Progressive DR with multiple microaneurysms and exudates. Clinical intervention advised. (Source: APTOS)"
+}

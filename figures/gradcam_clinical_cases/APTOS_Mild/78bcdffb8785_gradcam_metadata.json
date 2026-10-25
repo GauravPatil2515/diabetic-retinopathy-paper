@@ -1,0 +1,14 @@
+{
+  "image": "project/data/processed/aptos2019/Mild/78bcdffb8785.png",
+  "domain": "APTOS",
+  "prediction": "Mild",
+  "confidence": 0.5836525559425354,
+  "all_predictions": {
+    "No DR": 0.04941156879067421,
+    "Mild": 0.5836525559425354,
+    "Moderate": 0.2936856746673584,
+    "Severe": 0.030891990289092064,
+    "Proliferative DR": 0.042358268052339554
+  },
+  "interpretation": "Model predicts Mild with 58.4% confidence. Early-stage DR detected. Microaneurysms visible - recommended for monitoring. (Source: APTOS)"
+}

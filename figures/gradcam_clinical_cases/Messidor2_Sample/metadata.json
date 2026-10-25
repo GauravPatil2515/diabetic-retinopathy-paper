@@ -1,0 +1,126 @@
+{
+  "total_samples": 10,
+  "domain": "Messidor",
+  "results": [
+    {
+      "image": "project/data/processed/messidor2/20051202_55562_0400_PP.png",
+      "prediction": "Moderate",
+      "confidence": 0.38061878085136414,
+      "all_scores": {
+        "No DR": 0.17536033689975739,
+        "Mild": 0.2625797390937805,
+        "Moderate": 0.38061878085136414,
+        "Severe": 0.11246990412473679,
+        "Proliferative DR": 0.068971186876297
+      }
+    },
+    {
+      "image": "project/data/processed/messidor2/20060411_61548_0200_PP.png",
+      "prediction": "Mild",
+      "confidence": 0.5159015655517578,
+      "all_scores": {
+        "No DR": 0.29077357053756714,
+        "Mild": 0.5159015655517578,
+        "Moderate": 0.16118992865085602,
+        "Severe": 0.022642696276307106,
+        "Proliferative DR": 0.009492295794188976
+      }
+    },
+    {
+      "image": "project/data/processed/messidor2/IM000371.png",
+      "prediction": "No DR",
+      "confidence": 0.6025148630142212,
+      "all_scores": {
+        "No DR": 0.6025148630142212,
+        "Mild": 0.32612985372543335,
+        "Moderate": 0.06223992630839348,
+        "Severe": 0.005638315808027983,
+        "Proliferative DR": 0.0034770925994962454
+      }
+    },
+    {
+      "image": "project/data/processed/messidor2/20060412_58563_0200_PP.png",
+      "prediction": "Severe",
+      "confidence": 0.6037775278091431,
+      "all_scores": {
+        "No DR": 0.04227155074477196,
+        "Mild": 0.05295109748840332,
+        "Moderate": 0.1651623398065567,
+        "Severe": 0.6037775278091431,
+        "Proliferative DR": 0.13583746552467346
+      }
+    },
+    {
+      "image": "project/data/processed/messidor2/IM003431.png",
+      "prediction": "No DR",
+      "confidence": 0.5919479727745056,
+      "all_scores": {
+        "No DR": 0.5919479727745056,
+        "Mild": 0.2664009928703308,
+        "Moderate": 0.1232752874493599,
+        "Severe": 0.012209951877593994,
+        "Proliferative DR": 0.0061657363548874855
+      }
+    },
+    {
+      "image": "project/data/processed/messidor2/20060407_45087_0200_PP.png",
+      "prediction": "Mild",
+      "confidence": 0.5042392611503601,
+      "all_scores": {
+        "No DR": 0.3633880019187927,
+        "Mild": 0.5042392611503601,
+        "Moderate": 0.1135905534029007,
+        "Severe": 0.012750906869769096,
+        "Proliferative DR": 0.006031303200870752
+      }
+    },
+    {
+      "image": "project/data/processed/messidor2/IM003467.png",
+      "prediction": "No DR",
+      "confidence": 0.9111565947532654,
+      "all_scores": {
+        "No DR": 0.9111565947532654,
+        "Mild": 0.06245420500636101,
+        "Moderate": 0.023447515442967415,
+        "Severe": 0.0018455848330631852,
+        "Proliferative DR": 0.0010960317449644208
+      }
+    },
+    {
+      "image": "project/data/processed/messidor2/20060530_36895_0100_PP.png",
+      "prediction": "Severe",
+      "confidence": 0.3810393810272217,
+      "all_scores": {
+        "No DR": 0.0966208428144455,
+        "Mild": 0.1560901701450348,
+        "Moderate": 0.2674807906150818,
+        "Severe": 0.3810393810272217,
+        "Proliferative DR": 0.09876883774995804
+      }
+    },
+    {
+      "image": "project/data/processed/messidor2/IM002357.png",
+      "prediction": "No DR",
+      "confidence": 0.6577727794647217,
+      "all_scores": {
+        "No DR": 0.6577727794647217,
+        "Mild": 0.278626412153244,
+        "Moderate": 0.05548727884888649,
+        "Severe": 0.005005963612347841,
+        "Proliferative DR": 0.003107563592493534
+      }
+    },
+    {
+      "image": "project/data/processed/messidor2/20051207_54614_0400_PP.png",
+      "prediction": "Mild",
+      "confidence": 0.4783138930797577,
+      "all_scores": {
+        "No DR": 0.19270655512809753,
+        "Mild": 0.4783138930797577,
+        "Moderate": 0.26380813121795654,
+        "Severe": 0.04380863904953003,
+        "Proliferative DR": 0.021362869068980217
+      }
+    }
+  ]
+}

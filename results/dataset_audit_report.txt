@@ -1,0 +1,53 @@
+Dataset audit report
+================================================================================
+
+[APTOS]
+CSV: /home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/aptos2019/train.csv
+Images: /home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/aptos2019_resized/colored_images
+Rows: 3662
+Class distribution:
+  0: 1805 (49.29%)
+  1: 370 (10.10%)
+  2: 999 (27.28%)
+  3: 193 (5.27%)
+  4: 295 (8.06%)
+Missing files: 0
+Corrupted files: 0
+
+[Messidor-2]
+CSV: /home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/messidor2/messidor_data.csv
+Images: /home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/messidor2/messidor-2/images
+Rows: 1744
+Class distribution:
+  0: 1017 (58.31%)
+  1: 270 (15.48%)
+  2: 347 (19.90%)
+  3: 75 (4.30%)
+  4: 35 (2.01%)
+Missing files: 0
+Corrupted files: 0
+Notes:
+  - Messidor severe DR class is very rare.
+
+[EyePACS lite]
+CSV: /home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/eyepacs_lite/EyePACS/train.csv
+Images: /home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/eyepacs_lite/EyePACS/train
+Rows: 4200
+Class distribution:
+  0: 2100 (50.00%)
+  1: 2100 (50.00%)
+  2: 0 (0.00%)
+  3: 0 (0.00%)
+  4: 0 (0.00%)
+Missing files: 0
+Corrupted files: 0
+Notes:
+  - EyePACS is binary in this lite split and should not be mixed directly into 5-class supervised training.
+  - Binary labels confirmed; suitable for SSL or binary pretraining.
+
+[Folder-level checks]
+aptos_raw: {'image_dir': '/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/aptos2019/train_images', 'total_images': 231, 'corrupted_images': 1, 'corrupted_examples': ['/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/aptos2019/train_images/10f36b0239fb.png']}
+aptos_resized: {'image_dir': '/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/aptos2019_resized/colored_images', 'total_images': 3662, 'corrupted_images': 0, 'corrupted_examples': []}
+messidor: {'image_dir': '/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/messidor2/messidor-2/images', 'total_images': 1748, 'corrupted_images': 0, 'corrupted_examples': []}
+eyepacs_lite_train: {'image_dir': '/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/data/raw/eyepacs_lite/EyePACS/train', 'total_images': 4200, 'corrupted_images': 0, 'corrupted_examples': []}
+

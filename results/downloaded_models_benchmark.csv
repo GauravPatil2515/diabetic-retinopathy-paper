@@ -1,0 +1,5 @@
+model_label,model_name,weight_path,loaded_keys,missing_keys,unexpected_keys,aptos_qwk,messidor_qwk
+DenseNet121,densenet121,/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/models/pretrained/densenet121/densenet121-a639ec97.pth,604,582,580,0.0,0.0
+EfficientNet-B3,efficientnet_b3,/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/models/pretrained/efficientnet_b3/efficientnet_b3_rwightman-b3899882.pth,571,3,0,-0.21885642608466127,-0.023590102659678536
+ViT-Base/16,vit_base_patch16_224,/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/models/pretrained/vit_base_patch16_224_imagenet.pth,150,152,150,0.007161387392523477,-3.5811391462914344e-05
+ViT-Small/16 (DINO),vit_small_patch16_224,/home/gaurav/Desktop/gaurav code /Paper/Diabetic-ratinopathy/project/models/pretrained/dino_vits16/dino_deitsmall16_pretrain.pth,102,50,0,0.0,0.0

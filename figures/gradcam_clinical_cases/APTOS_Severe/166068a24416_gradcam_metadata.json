@@ -1,0 +1,14 @@
+{
+  "image": "project/data/processed/aptos2019/Severe/166068a24416.png",
+  "domain": "APTOS",
+  "prediction": "Proliferative DR",
+  "confidence": 0.37628084421157837,
+  "all_predictions": {
+    "No DR": 0.004346005618572235,
+    "Mild": 0.07867691665887833,
+    "Moderate": 0.30097371339797974,
+    "Severe": 0.23972246050834656,
+    "Proliferative DR": 0.37628084421157837
+  },
+  "interpretation": "Model predicts Proliferative DR with 37.6% confidence. Proliferative DR with neovascularization detected. Immediate clinical attention required. (Source: APTOS)"
+}

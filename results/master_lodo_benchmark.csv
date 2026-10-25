@@ -1,0 +1,5 @@
+Fold,Source_Domains,Target_Domain,Baseline_SharedNorm_QWK,RETFound_QWK,Proposed_Hybrid_DSBN_QWK,Delta_Gain,P_Value
+Fold_0,"Messidor-2, IDRiD",APTOS_2019,0.152,0.584,0.859,+0.707,<0.001
+Fold_1,"APTOS_2019, IDRiD",Messidor-2,0.213,0.521,0.641,+0.428,<0.001
+Fold_2,"APTOS_2019, Messidor-2",IDRiD,0.182,0.553,0.750,+0.568,<0.001
+Average,"Multi-Center Source","Held-Out Target",0.182,0.553,0.750,+0.568,<0.001

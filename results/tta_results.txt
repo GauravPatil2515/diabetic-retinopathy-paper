@@ -1,0 +1,17 @@
+TEST-TIME ADAPTATION (TTA) RESULTS
+================================================================================
+
+BASELINE (Frozen BN):
+  Overall QWK: 0.8623
+  APTOS QWK: 0.8872
+  Messidor-2 QWK: 0.6625
+
+TTA (Adapted BN):
+  Overall QWK: 0.8620
+  APTOS QWK: 0.8871
+  Messidor-2 QWK: 0.6625
+
+IMPROVEMENTS:
+  Overall: -0.0002
+  APTOS: -0.0001
+  Messidor-2: +0.0000

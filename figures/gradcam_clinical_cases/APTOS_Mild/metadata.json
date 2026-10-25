@@ -1,0 +1,42 @@
+{
+  "total_samples": 3,
+  "domain": "APTOS",
+  "results": [
+    {
+      "image": "project/data/processed/aptos2019/Mild/78bcdffb8785.png",
+      "prediction": "Mild",
+      "confidence": 0.5836525559425354,
+      "all_scores": {
+        "No DR": 0.04941156879067421,
+        "Mild": 0.5836525559425354,
+        "Moderate": 0.2936856746673584,
+        "Severe": 0.030891990289092064,
+        "Proliferative DR": 0.042358268052339554
+      }
+    },
+    {
+      "image": "project/data/processed/aptos2019/Mild/b50b30aa6e6c.png",
+      "prediction": "Mild",
+      "confidence": 0.7027212381362915,
+      "all_scores": {
+        "No DR": 0.035735659301280975,
+        "Mild": 0.7027212381362915,
+        "Moderate": 0.2047341912984848,
+        "Severe": 0.019934259355068207,
+        "Proliferative DR": 0.03687463328242302
+      }
+    },
+    {
+      "image": "project/data/processed/aptos2019/Mild/63a03880939c.png",
+      "prediction": "Mild",
+      "confidence": 0.6271607279777527,
+      "all_scores": {
+        "No DR": 0.026830749586224556,
+        "Mild": 0.6271607279777527,
+        "Moderate": 0.26373612880706787,
+        "Severe": 0.029702844098210335,
+        "Proliferative DR": 0.05256957188248634
+      }
+    }
+  ]
+}

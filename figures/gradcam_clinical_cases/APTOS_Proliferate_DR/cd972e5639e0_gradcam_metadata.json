@@ -1,0 +1,14 @@
+{
+  "image": "project/data/processed/aptos2019/Proliferate_DR/cd972e5639e0.png",
+  "domain": "APTOS",
+  "prediction": "Severe",
+  "confidence": 0.4675180912017822,
+  "all_predictions": {
+    "No DR": 0.0033744482789188623,
+    "Mild": 0.008246999233961105,
+    "Moderate": 0.100716732442379,
+    "Severe": 0.4675180912017822,
+    "Proliferative DR": 0.42014366388320923
+  },
+  "interpretation": "Model predicts Severe with 46.8% confidence. Severe DR with extensive hemorrhages and exudates. Urgent intervention recommended. (Source: APTOS)"
+}
