@@ -130,7 +130,7 @@ As illustrated in Fig.~\ref{fig_preprocessing}, raw fundus photographs undergo a
 
 \begin{figure*}[htbp]
 \centering
-\includegraphics[width=0.98\textwidth]{figures/Figure_2_Architecture_New.pdf}
+    \includegraphics[width=0.88\textwidth]{figures/Figure_2_Architecture_New.pdf}
 \caption{Technical block diagram of the proposed Domain-Aware Hybrid CNN--ViT architecture: Dual-stream EfficientNet-B3 and DINOv2 ViT-Small backbones extract local and global representations, fused and projected into an 896-dimensional latent vector $z$, normalized via Domain-Specific Batch Normalization (DSBN), smoothed via Exponential Moving Average (EMA), and trained under composite Distance-Weighted Cross-Entropy (DWCE).}
 \label{fig_architecture}
 \end{figure*}
@@ -361,12 +361,7 @@ Our experiments provide a critical microstructural insight into medical domain a
 The empirical superiority of the proposed framework over single-stream architectures stems from the complementary synergy of CNNs and ViTs. Retinal diagnosis requires both local feature acuity (identifying subtle individual lesions) and global spatial reasoning (integrating quadrant-level lesion counts). While EfficientNet-B3 accurately segments local microaneurysms, DINOv2 self-attention maps capture the global anatomical layout, providing resilience against local illumination non-uniformities.
 
 \section{Limitations and Future Work}
-While our framework demonstrates robust cross-domain generalizability across three international cohorts, several limitations offer avenues for future research:
-\begin{enumerate}
-    \item \textbf{Modality Scope}: The current evaluation focuses on color fundus photography. Integrating multi-modal optical coherence tomography (OCT) and OCT-Angiography represents an important next frontier.
-    \item \textbf{Prospective Validation}: While tested across three multi-center retrospective datasets, prospective clinical trial validation across live point-of-care screening clinics is warranted.
-    \item \textbf{Fine-Grained Lesion Segmentation}: Future extensions will integrate pixel-level lesion segmentation masks to provide joint detection and bounding box explainability.
-\end{enumerate}
+While our framework demonstrates robust cross-domain generalizability across three international cohorts, several limitations offer avenues for future research: (i)~\emph{Modality Scope}: current evaluation focuses on color fundus photography; integrating multi-modal optical coherence tomography (OCT) represents an important next frontier; (ii)~\emph{Prospective Validation}: while tested retrospectively across three multi-center cohorts, prospective trials across live point-of-care screening clinics are warranted; and (iii)~\emph{Lesion Segmentation}: future extensions will incorporate pixel-level masks to provide joint lesion detection and explainability.
 
 \section{Data Availability \& Ethical Compliance}
 All experiments utilized publicly available, de-identified retinal imaging benchmarks: APTOS 2019, Messidor-2, and IDRiD. No identifiable human subject research was conducted by the authors. Full PyTorch source code, trained model checkpoints, and evaluation scripts will be released publicly upon publication.
