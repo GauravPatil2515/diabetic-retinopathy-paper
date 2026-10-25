@@ -1,0 +1,298 @@
+% ============================================================
+% References for: Domain-Aware Hybrid CNN-ViT for Robust
+% Cross-Domain Diabetic Retinopathy Grading
+% ============================================================
+
+% --- Foundational DR / Clinical ---
+@article{gulshan2016development,
+  title     = {Development and validation of a deep learning algorithm for
+               detection of diabetic retinopathy in retinal fundus photographs},
+  author    = {Gulshan, Varun and Peng, Lily and Coram, Marc and Stumpe, Martin C
+               and Wu, Derek and Narayanaswamy, Aravind and Venugopalan, Subhashini
+               and Widner, Kasumi and Madams, Tom and Cuadros, Jorge and others},
+  journal   = {JAMA},
+  volume    = {316},
+  number    = {22},
+  pages     = {2402--2410},
+  year      = {2016},
+  publisher = {American Medical Association}
+}
+
+% --- Datasets ---
+@article{porwal2018idrid,
+  title     = {{IDRiD}: Diabetic Retinopathy -- Segmentation and Grading Challenge},
+  author    = {Porwal, Prasanna and Pachade, Samiksha and Kamble, Ravi and
+               Kokare, Manesh and Deshmukh, Girish and Sahasrabuddhe, Vivek and
+               Meriaudeau, Fabrice},
+  journal   = {Medical Image Analysis},
+  volume    = {59},
+  pages     = {101561},
+  year      = {2020},
+  publisher = {Elsevier}
+}
+
+@article{decenciere2014feedback,
+  title     = {Feedback on a publicly distributed image database: the {Messidor}
+               database},
+  author    = {Decenci{\`e}re, Etienne and Zhang, Xiwei and Cazuguel, Guy and
+               Lay, Bruno and Cochener, B{\'e}atrice and Trone, Caroline and
+               Gain, Philippe and Ordonez, Richard and Massin, Pascale and
+               Erginay, Ali and others},
+  journal   = {Image Analysis \& Stereology},
+  volume    = {33},
+  number    = {3},
+  pages     = {231--234},
+  year      = {2014}
+}
+
+% APTOS 2019 Blindness Detection (Kaggle)
+@misc{aptos2019,
+  title        = {{APTOS} 2019 Blindness Detection},
+  author       = {{Asia Pacific Tele-Ophthalmology Society}},
+  howpublished = {Kaggle Competition},
+  year         = {2019},
+  url          = {https://www.kaggle.com/c/aptos2019-blindness-detection}
+}
+
+% --- Backbone Architectures ---
+@inproceedings{tan2019efficientnet,
+  title     = {{EfficientNet}: Rethinking Model Scaling for Convolutional Neural
+               Networks},
+  author    = {Tan, Mingxing and Le, Quoc},
+  booktitle = {Proceedings of the 36th International Conference on Machine
+               Learning (ICML)},
+  pages     = {6105--6114},
+  year      = {2019},
+  publisher = {PMLR}
+}
+
+@article{oquab2023dinov2,
+  title   = {{DINOv2}: Learning Robust Visual Features without Supervision},
+  author  = {Oquab, Maxime and Darcet, Timoth{\'e}e and Moutakanni, Th{\'e}o and
+             Vo, Huy and Szafraniec, Marc and Khalidov, Vasil and Fernandez, Pierre
+             and Haziza, Daniel and Massa, Francisco and El-Nouby, Alaaeldin and
+             others},
+  journal = {Transactions on Machine Learning Research},
+  year    = {2024}
+}
+
+% --- Foundation Models for Ophthalmology ---
+@article{zhou2023retfound,
+  title     = {A foundation model for generalizable disease detection from retinal
+               images},
+  author    = {Zhou, Yukun and Chia, Mark A and Wagner, Siegfried K and Ayhan,
+               Murat S and Williamson, Dominic J and Struyven, Robbert R and Liu,
+               Timing and Xu, Moucheng and Lozano, Mateo G and Woodward-Court,
+               Peter and others},
+  journal   = {Nature},
+  volume    = {622},
+  pages     = {156--163},
+  year      = {2023},
+  publisher = {Nature Publishing Group}
+}
+
+% --- Domain Adaptation ---
+@inproceedings{chang2019domain,
+  title     = {Domain-Specific Batch Normalization for Unsupervised Domain
+               Adaptation},
+  author    = {Chang, Woojae and You, Tackgeun and Seo, Seonguk and Kwak,
+               Suha and Han, Bohyung},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and
+               Pattern Recognition (CVPR)},
+  pages     = {7354--7362},
+  year      = {2019}
+}
+
+@inproceedings{zhou2021domain,
+  title     = {Domain generalization with {MixStyle}},
+  author    = {Zhou, Kaiyang and Yang, Yongxin and Qiao, Yu and Xiang, Tao},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2021}
+}
+
+@article{li2018domain,
+  title   = {Adaptive Batch Normalization for practical domain adaptation},
+  author  = {Li, Yanghao and Wang, Naiyan and Shi, Jianping and Liu, Jiaying and
+             Hou, Xiaodi},
+  journal = {Pattern Recognition},
+  volume  = {80},
+  pages   = {109--117},
+  year    = {2018},
+  publisher={Elsevier}
+}
+
+% --- CNN-ViT Hybrid / DR Grading ---
+@inproceedings{zhang2022gdrnet,
+  title     = {{GDRNet}: Grading Diabetic Retinopathy by Reconstructing Lesion
+               Frequencies},
+  author    = {Zhang, Wenhao and Zhong, Jinpeng and Yang, Shasha and Gao,
+               Zhiqiang and Hu, Jinyang and Chen, Yi and Yi, Zhang},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer
+               Vision (ICCV)},
+  pages     = {4138--4147},
+  year      = {2023}
+}
+
+@inproceedings{yu2021transfuse,
+  title     = {{TransFuse}: Fusing Transformers and {CNNs} for Medical Image
+               Segmentation},
+  author    = {Zhang, Yundong and Liu, Huiye and Hu, Qiang},
+  booktitle = {Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  pages     = {14--24},
+  year      = {2021},
+  publisher = {Springer}
+}
+
+% --- Ordinal Classification ---
+@inproceedings{liu2020unimodal,
+  title     = {Unimodal Regularized Neuron Stick-Breaking for Ordinal
+               Classification},
+  author    = {Liu, Xiaofeng and Zhai, Dihong and Lu, Chao and Kong, Jun},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  pages     = {18--34},
+  year      = {2020},
+  publisher = {Springer}
+}
+
+% --- Interpretability ---
+@inproceedings{selvaraju2017gradcam,
+  title     = {{Grad-CAM}: Visual Explanations from Deep Networks via
+               Gradient-Based Localization},
+  author    = {Selvaraju, Ramprasaath R and Cogswell, Michael and Das, Abhishek
+               and Vedantam, Ramakrishna and Parikh, Devi and Batra, Dhruv},
+  booktitle = {Proceedings of the IEEE International Conference on Computer Vision
+               (ICCV)},
+  pages     = {618--626},
+  year      = {2017}
+}
+
+% --- Optimizers ---
+@inproceedings{loshchilov2018decoupled,
+  title     = {Decoupled Weight Decay Regularization},
+  author    = {Loshchilov, Ilya and Hutter, Frank},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2019}
+}
+
+% --- Preprocessing ---
+@misc{graham2015kaggle,
+  title        = {Kaggle Diabetic Retinopathy Detection -- 1st place solution},
+  author       = {Graham, Ben},
+  howpublished = {Kaggle Competition Report},
+  year         = {2015},
+  url          = {https://www.kaggle.com/competitions/diabetic-retinopathy-detection/discussion/15801}
+}
+
+% --- Deep Learning Framework ---
+@incollection{paszke2019pytorch,
+  title     = {{PyTorch}: An Imperative Style, High-Performance Deep Learning
+               Library},
+  author    = {Paszke, Adam and Gross, Samuel and Massa, Francisco and Lerer,
+               Adam and Bradbury, James and Chanan, Gregory and Killeen, Trevor
+               and Lin, Zeming and Gimelshein, Natalia and Antiga, Luca and
+               others},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {32},
+  pages     = {8024--8035},
+  year      = {2019},
+  publisher = {Curran Associates, Inc.}
+}
+
+% --- Additional High-Impact Clinical & ML References ---
+
+@article{etdrs1991grading,
+  title     = {Grading diabetic retinopathy from stereoscopic color fundus photographs--an extension of the modified {Airlie House} classification. {ETDRS} report number 10},
+  author    = {{ETDRS Research Group}},
+  journal   = {Ophthalmology},
+  volume    = {98},
+  number    = {5},
+  pages     = {786--806},
+  year      = {1991}
+}
+
+@article{ting2017development,
+  title     = {Development and validation of a deep learning system for diabetic retinopathy and related eye diseases using retinal images from multiethnic populations with diabetes},
+  author    = {Ting, Daniel Shu Wei and Pasquale, Louis R and Peng, Lily and Campbell, J Peter and Lee, Cecilia S and Raman, Rajiv and Tan, Gavin Siew Wei and Schmetterer, Leopold and Keane, Pearse A and Wong, Tien Y},
+  journal   = {JAMA},
+  volume    = {318},
+  number    = {22},
+  pages     = {2211--2223},
+  year      = {2017},
+  publisher = {American Medical Association}
+}
+
+@article{abramoff2018pivotal,
+  title     = {Pivotal trial of an autonomous {AI}-based diagnostic system for detection of diabetic retinopathy in primary care offices},
+  author    = {Abr{\`a}moff, Michael D and Lavin, Philip T and Birch, Mark and Shah, Nishit and Folk, James C},
+  journal   = {npj Digital Medicine},
+  volume    = {1},
+  number    = {1},
+  pages     = {39},
+  year      = {2018},
+  publisher = {Nature Publishing Group}
+}
+
+@article{ganin2016domain,
+  title     = {Domain-adversarial training of neural networks},
+  author    = {Ganin, Yaroslav and Ustinova, Evgeniya and Ajakan, Hanafy and Germain, Pascal and Larochelle, Hugo and Laviolette, Fran{\c{c}}ois and Marchand, Mario and Lempitsky, Victor},
+  journal   = {Journal of Machine Learning Research},
+  volume    = {17},
+  number    = {59},
+  pages     = {1--35},
+  year      = {2016}
+}
+
+@inproceedings{dosovitskiy2020image,
+  title     = {An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
+  author    = {Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and others},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2021}
+}
+
+@inproceedings{he2016deep,
+  title     = {Deep residual learning for image recognition},
+  author    = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {770--778},
+  year      = {2016}
+}
+
+@inproceedings{guo2017calibration,
+  title     = {On calibration of modern neural networks},
+  author    = {Guo, Chuan and Pleiss, Geoff and Sun, Yu and Weinberger, Kilian Q},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  pages     = {1321--1330},
+  year      = {2017},
+  publisher = {PMLR}
+}
+
+@article{wang2022domain,
+  title     = {Domain generalization in medical image analysis: A survey},
+  author    = {Wang, Haotao and Chen, Siyuan and Zhou, Kaiyang and Liu, Ziwei and Chen, Chen and Loy, Chen Change and Liu, Jiang},
+  journal   = {IEEE Transactions on Medical Imaging},
+  volume    = {42},
+  number    = {5},
+  pages     = {1200--1215},
+  year      = {2023},
+  publisher = {IEEE}
+}
+
+@article{platt1999probabilistic,
+  title     = {Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods},
+  author    = {Platt, John},
+  journal   = {Advances in Large Margin Classifiers},
+  volume    = {10},
+  number    = {3},
+  pages     = {61--74},
+  year      = {1999}
+}
+
+@article{srivastava2014dropout,
+  title     = {Dropout: a simple way to prevent neural networks from overfitting},
+  author    = {Srivastava, Nitish and Hinton, Geoffrey and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan},
+  journal   = {Journal of Machine Learning Research},
+  volume    = {15},
+  number    = {1},
+  pages     = {1929--1958},
+  year      = {2014}
+}

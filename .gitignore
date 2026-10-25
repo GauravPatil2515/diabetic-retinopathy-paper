@@ -1,0 +1,28 @@
+# LaTeX temporary build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.dvi
+*.ps
+
+# Python temporary artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+
+# System / OS
+.DS_Store
+Thumbs.db
+*~
